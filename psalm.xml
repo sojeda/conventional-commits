@@ -11,6 +11,7 @@
         <directory name="./src"/>
         <ignoreFiles>
             <file name="./src/CaptainHook/Input.php"/>
+            <file name="./src/CaptainHook/ForceDetector.php"/>
             <directory name="./tests"/>
             <directory name="./vendor"/>
         </ignoreFiles>
