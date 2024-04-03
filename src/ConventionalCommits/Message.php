@@ -19,17 +19,17 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits;
+namespace Sojeda\ConventionalCommits;
 
-use Ramsey\ConventionalCommits\Configuration\Configurable;
-use Ramsey\ConventionalCommits\Configuration\ConfigurableTool;
-use Ramsey\ConventionalCommits\Message\Body;
-use Ramsey\ConventionalCommits\Message\Description;
-use Ramsey\ConventionalCommits\Message\Footer;
-use Ramsey\ConventionalCommits\Message\Scope;
-use Ramsey\ConventionalCommits\Message\Type;
-use Ramsey\ConventionalCommits\Validator\Validatable;
-use Ramsey\ConventionalCommits\Validator\ValidatableTool;
+use Sojeda\ConventionalCommits\Configuration\Configurable;
+use Sojeda\ConventionalCommits\Configuration\ConfigurableTool;
+use Sojeda\ConventionalCommits\Message\Body;
+use Sojeda\ConventionalCommits\Message\Description;
+use Sojeda\ConventionalCommits\Message\Footer;
+use Sojeda\ConventionalCommits\Message\Scope;
+use Sojeda\ConventionalCommits\Message\Type;
+use Sojeda\ConventionalCommits\Validator\Validatable;
+use Sojeda\ConventionalCommits\Validator\ValidatableTool;
 use Stringable;
 
 use function count;

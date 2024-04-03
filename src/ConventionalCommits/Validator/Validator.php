@@ -19,9 +19,9 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Validator;
+namespace Sojeda\ConventionalCommits\Validator;
 
-use Ramsey\ConventionalCommits\Exception\InvalidValue;
+use Sojeda\ConventionalCommits\Exception\InvalidValue;
 
 /**
  * A validator analyzes a value and determines whether it is valid according to

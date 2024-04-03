@@ -19,18 +19,18 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Validator;
+namespace Sojeda\ConventionalCommits\Validator;
 
-use Ramsey\ConventionalCommits\Configuration\Configurable;
-use Ramsey\ConventionalCommits\Configuration\ConfigurableTool;
-use Ramsey\ConventionalCommits\Configuration\Configuration;
-use Ramsey\ConventionalCommits\Exception\InvalidValue;
-use Ramsey\ConventionalCommits\Message;
-use Ramsey\ConventionalCommits\Message\Body;
-use Ramsey\ConventionalCommits\Message\Description;
-use Ramsey\ConventionalCommits\Message\Footer;
-use Ramsey\ConventionalCommits\Message\Scope;
-use Ramsey\ConventionalCommits\Message\Type;
+use Sojeda\ConventionalCommits\Configuration\Configurable;
+use Sojeda\ConventionalCommits\Configuration\ConfigurableTool;
+use Sojeda\ConventionalCommits\Configuration\Configuration;
+use Sojeda\ConventionalCommits\Exception\InvalidValue;
+use Sojeda\ConventionalCommits\Message;
+use Sojeda\ConventionalCommits\Message\Body;
+use Sojeda\ConventionalCommits\Message\Description;
+use Sojeda\ConventionalCommits\Message\Footer;
+use Sojeda\ConventionalCommits\Message\Scope;
+use Sojeda\ConventionalCommits\Message\Type;
 
 use function get_class;
 use function gettype;

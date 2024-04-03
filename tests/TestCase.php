@@ -20,7 +20,7 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test;
+namespace Sojeda\Test;
 
 use Mockery;
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;

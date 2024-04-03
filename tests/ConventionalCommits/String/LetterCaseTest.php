@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits\String;
+namespace Sojeda\Test\ConventionalCommits\String;
 
-use Ramsey\ConventionalCommits\String\LetterCase;
-use Ramsey\Test\TestCase;
+use Sojeda\ConventionalCommits\String\LetterCase;
+use Sojeda\Test\TestCase;
 
 class LetterCaseTest extends TestCase
 {

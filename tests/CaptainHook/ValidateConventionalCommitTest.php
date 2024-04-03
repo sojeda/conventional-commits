@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\CaptainHook;
+namespace Sojeda\Test\CaptainHook;
 
 use CaptainHook\App\Config;
 use CaptainHook\App\Config\Action as ConfigAction;
@@ -10,12 +10,12 @@ use CaptainHook\App\Console\IO;
 use CaptainHook\App\Exception\ActionFailed;
 use Hamcrest\Core\IsInstanceOf;
 use Mockery\MockInterface;
-use Ramsey\CaptainHook\Output;
-use Ramsey\CaptainHook\ValidateConventionalCommit;
-use Ramsey\ConventionalCommits\Console\SymfonyStyleFactory;
-use Ramsey\Test\TestCase;
 use SebastianFeldmann\Git\CommitMessage;
 use SebastianFeldmann\Git\Repository;
+use Sojeda\CaptainHook\Output;
+use Sojeda\CaptainHook\ValidateConventionalCommit;
+use Sojeda\ConventionalCommits\Console\SymfonyStyleFactory;
+use Sojeda\Test\TestCase;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Style\SymfonyStyle;
 

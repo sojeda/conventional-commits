@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test;
+namespace Sojeda\Test;
 
 use ReflectionClass;
 use Spatie\Snapshots\MatchesSnapshots;

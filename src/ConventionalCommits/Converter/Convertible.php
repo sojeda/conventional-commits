@@ -19,7 +19,7 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Converter;
+namespace Sojeda\ConventionalCommits\Converter;
 
 /**
  * A convertible class provides functionality to convert values from one form

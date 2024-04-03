@@ -19,7 +19,7 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\String;
+namespace Sojeda\ConventionalCommits\String;
 
 /**
  * Provides constants for letter case identifiers

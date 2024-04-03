@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits\Validator;
+namespace Sojeda\Test\ConventionalCommits\Validator;
 
-use Ramsey\ConventionalCommits\Configuration\DefaultConfiguration;
-use Ramsey\ConventionalCommits\Exception\InvalidValue;
-use Ramsey\ConventionalCommits\Message;
-use Ramsey\ConventionalCommits\Message\Body;
-use Ramsey\ConventionalCommits\Message\Description;
-use Ramsey\ConventionalCommits\Message\Type;
-use Ramsey\ConventionalCommits\Validator\DefaultMessageValidator;
-use Ramsey\Test\TestCase;
+use Sojeda\ConventionalCommits\Configuration\DefaultConfiguration;
+use Sojeda\ConventionalCommits\Exception\InvalidValue;
+use Sojeda\ConventionalCommits\Message;
+use Sojeda\ConventionalCommits\Message\Body;
+use Sojeda\ConventionalCommits\Message\Description;
+use Sojeda\ConventionalCommits\Message\Type;
+use Sojeda\ConventionalCommits\Validator\DefaultMessageValidator;
+use Sojeda\Test\TestCase;
 use stdClass;
 
 class DefaultMessageValidatorTest extends TestCase

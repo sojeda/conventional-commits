@@ -19,12 +19,12 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Console\Question;
+namespace Sojeda\ConventionalCommits\Console\Question;
 
-use Ramsey\ConventionalCommits\Exception\InvalidArgument;
-use Ramsey\ConventionalCommits\Exception\InvalidConsoleInput;
-use Ramsey\ConventionalCommits\Exception\InvalidValue;
-use Ramsey\ConventionalCommits\Message\Footer;
+use Sojeda\ConventionalCommits\Exception\InvalidArgument;
+use Sojeda\ConventionalCommits\Exception\InvalidConsoleInput;
+use Sojeda\ConventionalCommits\Exception\InvalidValue;
+use Sojeda\ConventionalCommits\Message\Footer;
 use Symfony\Component\Console\Question\Question;
 
 use function strlen;

@@ -19,10 +19,10 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Message;
+namespace Sojeda\ConventionalCommits\Message;
 
-use Ramsey\ConventionalCommits\Exception\InvalidArgument;
-use Ramsey\ConventionalCommits\Validator\ValidatableTool;
+use Sojeda\ConventionalCommits\Exception\InvalidArgument;
+use Sojeda\ConventionalCommits\Validator\ValidatableTool;
 
 use function array_pop;
 use function explode;

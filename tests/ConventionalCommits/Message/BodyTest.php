@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits\Message;
+namespace Sojeda\Test\ConventionalCommits\Message;
 
-use Ramsey\ConventionalCommits\Message\Body;
-use Ramsey\Test\TestCase;
+use Sojeda\ConventionalCommits\Message\Body;
+use Sojeda\Test\TestCase;
 
 use const PHP_EOL;
 

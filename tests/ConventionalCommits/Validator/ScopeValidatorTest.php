@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits\Validator;
+namespace Sojeda\Test\ConventionalCommits\Validator;
 
-use Ramsey\ConventionalCommits\Configuration\DefaultConfiguration;
-use Ramsey\ConventionalCommits\Exception\InvalidValue;
-use Ramsey\ConventionalCommits\Validator\ScopeValidator;
-use Ramsey\Test\TestCase;
+use Sojeda\ConventionalCommits\Configuration\DefaultConfiguration;
+use Sojeda\ConventionalCommits\Exception\InvalidValue;
+use Sojeda\ConventionalCommits\Validator\ScopeValidator;
+use Sojeda\Test\TestCase;
 
 class ScopeValidatorTest extends TestCase
 {

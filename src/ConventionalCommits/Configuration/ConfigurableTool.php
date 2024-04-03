@@ -19,7 +19,7 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Configuration;
+namespace Sojeda\ConventionalCommits\Configuration;
 
 /**
  * This tool provides standard functionality for instances implementing Configurable

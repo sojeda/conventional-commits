@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits\Message;
+namespace Sojeda\Test\ConventionalCommits\Message;
 
-use Ramsey\ConventionalCommits\Message\Scope;
+use Sojeda\ConventionalCommits\Message\Scope;
 
 class ScopeTest extends NounTestCase
 {

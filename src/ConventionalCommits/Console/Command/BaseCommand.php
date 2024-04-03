@@ -19,11 +19,11 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Console\Command;
+namespace Sojeda\ConventionalCommits\Console\Command;
 
-use Ramsey\ConventionalCommits\Configuration\Configurable;
-use Ramsey\ConventionalCommits\Configuration\ConfigurableTool;
-use Ramsey\ConventionalCommits\Configuration\FinderTool;
+use Sojeda\ConventionalCommits\Configuration\Configurable;
+use Sojeda\ConventionalCommits\Configuration\ConfigurableTool;
+use Sojeda\ConventionalCommits\Configuration\FinderTool;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;

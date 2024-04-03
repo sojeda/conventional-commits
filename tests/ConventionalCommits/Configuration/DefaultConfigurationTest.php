@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits\Configuration;
+namespace Sojeda\Test\ConventionalCommits\Configuration;
 
 use Jawira\CaseConverter\CaseConverter;
 use Mockery\MockInterface;
-use Ramsey\ConventionalCommits\Configuration\DefaultConfiguration;
-use Ramsey\ConventionalCommits\Converter\LetterCaseConverter;
-use Ramsey\ConventionalCommits\Exception\InvalidArgument;
-use Ramsey\ConventionalCommits\Validator\DefaultMessageValidator;
-use Ramsey\ConventionalCommits\Validator\MessageValidator;
-use Ramsey\Test\TestCase;
+use Sojeda\ConventionalCommits\Configuration\DefaultConfiguration;
+use Sojeda\ConventionalCommits\Converter\LetterCaseConverter;
+use Sojeda\ConventionalCommits\Exception\InvalidArgument;
+use Sojeda\ConventionalCommits\Validator\DefaultMessageValidator;
+use Sojeda\ConventionalCommits\Validator\MessageValidator;
+use Sojeda\Test\TestCase;
 
 use function json_encode;
 

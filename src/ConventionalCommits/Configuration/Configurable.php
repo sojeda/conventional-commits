@@ -19,7 +19,7 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Configuration;
+namespace Sojeda\ConventionalCommits\Configuration;
 
 /**
  * Classes that are configurable provide methods to set and get configuration

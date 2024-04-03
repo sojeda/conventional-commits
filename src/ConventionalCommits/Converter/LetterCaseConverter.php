@@ -19,11 +19,11 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Converter;
+namespace Sojeda\ConventionalCommits\Converter;
 
 use Jawira\CaseConverter\CaseConverterInterface;
-use Ramsey\ConventionalCommits\Exception\InvalidArgument;
-use Ramsey\ConventionalCommits\String\LetterCase;
+use Sojeda\ConventionalCommits\Exception\InvalidArgument;
+use Sojeda\ConventionalCommits\String\LetterCase;
 
 use function gettype;
 use function in_array;

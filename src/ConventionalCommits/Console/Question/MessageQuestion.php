@@ -19,11 +19,11 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Console\Question;
+namespace Sojeda\ConventionalCommits\Console\Question;
 
-use Ramsey\ConventionalCommits\Configuration\Configurable;
-use Ramsey\ConventionalCommits\Configuration\ConfigurableTool;
-use Ramsey\ConventionalCommits\Configuration\Configuration;
+use Sojeda\ConventionalCommits\Configuration\Configurable;
+use Sojeda\ConventionalCommits\Configuration\ConfigurableTool;
+use Sojeda\ConventionalCommits\Configuration\Configuration;
 use Symfony\Component\Console\Question\Question;
 
 use function method_exists;

@@ -19,7 +19,7 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Message;
+namespace Sojeda\ConventionalCommits\Message;
 
 /**
  * A Conventional Commits scope

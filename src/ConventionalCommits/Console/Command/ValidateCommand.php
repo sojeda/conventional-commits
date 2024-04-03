@@ -19,12 +19,12 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Console\Command;
+namespace Sojeda\ConventionalCommits\Console\Command;
 
-use Ramsey\ConventionalCommits\Console\Question\MessageQuestion;
-use Ramsey\ConventionalCommits\Console\SymfonyStyleFactory;
-use Ramsey\ConventionalCommits\Exception\ConventionalException;
-use Ramsey\ConventionalCommits\Parser;
+use Sojeda\ConventionalCommits\Console\Question\MessageQuestion;
+use Sojeda\ConventionalCommits\Console\SymfonyStyleFactory;
+use Sojeda\ConventionalCommits\Exception\ConventionalException;
+use Sojeda\ConventionalCommits\Parser;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;

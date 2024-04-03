@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits\Converter;
+namespace Sojeda\Test\ConventionalCommits\Converter;
 
 use Jawira\CaseConverter\CaseConverter;
-use Ramsey\ConventionalCommits\Converter\LetterCaseConverter;
-use Ramsey\ConventionalCommits\Exception\InvalidArgument;
-use Ramsey\Test\TestCase;
+use Sojeda\ConventionalCommits\Converter\LetterCaseConverter;
+use Sojeda\ConventionalCommits\Exception\InvalidArgument;
+use Sojeda\Test\TestCase;
 
 class LetterCaseConverterTest extends TestCase
 {

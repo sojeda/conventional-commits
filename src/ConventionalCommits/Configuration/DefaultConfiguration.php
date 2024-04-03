@@ -19,18 +19,18 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Configuration;
+namespace Sojeda\ConventionalCommits\Configuration;
 
 use Jawira\CaseConverter\CaseConverter;
-use Ramsey\ConventionalCommits\Converter\LetterCaseConverter;
-use Ramsey\ConventionalCommits\Exception\InvalidArgument;
-use Ramsey\ConventionalCommits\Message\Footer;
-use Ramsey\ConventionalCommits\Message\Scope;
-use Ramsey\ConventionalCommits\Message\Type;
-use Ramsey\ConventionalCommits\String\LetterCase;
-use Ramsey\ConventionalCommits\Validator\DefaultMessageValidator;
-use Ramsey\ConventionalCommits\Validator\MessageValidator;
 use ReturnTypeWillChange;
+use Sojeda\ConventionalCommits\Converter\LetterCaseConverter;
+use Sojeda\ConventionalCommits\Exception\InvalidArgument;
+use Sojeda\ConventionalCommits\Message\Footer;
+use Sojeda\ConventionalCommits\Message\Scope;
+use Sojeda\ConventionalCommits\Message\Type;
+use Sojeda\ConventionalCommits\String\LetterCase;
+use Sojeda\ConventionalCommits\Validator\DefaultMessageValidator;
+use Sojeda\ConventionalCommits\Validator\MessageValidator;
 
 use function array_key_exists;
 use function in_array;

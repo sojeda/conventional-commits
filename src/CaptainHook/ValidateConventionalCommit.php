@@ -19,7 +19,7 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\CaptainHook;
+namespace Sojeda\CaptainHook;
 
 use CaptainHook\App\Config;
 use CaptainHook\App\Config\Action as ActionConfig;
@@ -29,12 +29,12 @@ use CaptainHook\App\Hook\Action;
 use CaptainHook\App\Hook\Constrained;
 use CaptainHook\App\Hook\Restriction;
 use CaptainHook\App\Hooks;
-use Ramsey\ConventionalCommits\Configuration\Configuration;
-use Ramsey\ConventionalCommits\Configuration\FinderTool;
-use Ramsey\ConventionalCommits\Console\SymfonyStyleFactory;
-use Ramsey\ConventionalCommits\Exception\ConventionalException;
-use Ramsey\ConventionalCommits\Parser;
 use SebastianFeldmann\Git\Repository;
+use Sojeda\ConventionalCommits\Configuration\Configuration;
+use Sojeda\ConventionalCommits\Configuration\FinderTool;
+use Sojeda\ConventionalCommits\Console\SymfonyStyleFactory;
+use Sojeda\ConventionalCommits\Exception\ConventionalException;
+use Sojeda\ConventionalCommits\Parser;
 use Symfony\Component\Console\Input\ArrayInput;
 
 /**

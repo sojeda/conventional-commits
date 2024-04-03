@@ -78,7 +78,7 @@ property in your `captainhook.json` file:
         "enabled": true,
         "actions": [
             {
-                "action": "\\Ramsey\\CaptainHook\\ValidateConventionalCommit"
+                "action": "\\Sojeda\\CaptainHook\\ValidateConventionalCommit"
             }
         ]
     }
@@ -100,7 +100,7 @@ property in your `captainhook.json` file:
         "enabled": true,
         "actions": [
             {
-                "action": "\\Ramsey\\CaptainHook\\PrepareConventionalCommit"
+                "action": "\\Sojeda\\CaptainHook\\PrepareConventionalCommit"
             }
         ]
     }
@@ -200,7 +200,7 @@ it for *each action* you configure, like this:
         "enabled": true,
         "actions": [
             {
-                "action": "\\Ramsey\\CaptainHook\\ValidateConventionalCommit",
+                "action": "\\Sojeda\\CaptainHook\\ValidateConventionalCommit",
                 "options": {
                     "config": {
                         "typeCase": null,
@@ -222,7 +222,7 @@ it for *each action* you configure, like this:
         "enabled": true,
         "actions": [
             {
-                "action": "\\Ramsey\\CaptainHook\\PrepareConventionalCommit",
+                "action": "\\Sojeda\\CaptainHook\\PrepareConventionalCommit",
                 "options": {
                     "config": {
                         "typeCase": null,
@@ -306,7 +306,7 @@ And here's what this looks like in `captainhook.json`:
         "enabled": true,
         "actions": [
             {
-                "action": "\\Ramsey\\CaptainHook\\ValidateConventionalCommit",
+                "action": "\\Sojeda\\CaptainHook\\ValidateConventionalCommit",
                 "options": {
                     "configFile": "./conventional-commits.json"
                 }
@@ -317,7 +317,7 @@ And here's what this looks like in `captainhook.json`:
         "enabled": true,
         "actions": [
             {
-                "action": "\\Ramsey\\CaptainHook\\PrepareConventionalCommit",
+                "action": "\\Sojeda\\CaptainHook\\PrepareConventionalCommit",
                 "options": {
                     "configFile": "./conventional-commits.json"
                 }

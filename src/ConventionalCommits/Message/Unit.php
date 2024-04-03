@@ -19,9 +19,9 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Message;
+namespace Sojeda\ConventionalCommits\Message;
 
-use Ramsey\ConventionalCommits\Validator\Validatable;
+use Sojeda\ConventionalCommits\Validator\Validatable;
 use Stringable;
 
 /**

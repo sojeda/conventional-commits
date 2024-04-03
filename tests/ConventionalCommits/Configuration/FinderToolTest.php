@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits\Configuration;
+namespace Sojeda\Test\ConventionalCommits\Configuration;
 
 use Composer\Composer;
 use JsonException;
 use Mockery\MockInterface;
-use Ramsey\ConventionalCommits\Configuration\Configuration;
-use Ramsey\ConventionalCommits\Configuration\FinderTool;
-use Ramsey\ConventionalCommits\Exception\ComposerNotFound;
-use Ramsey\ConventionalCommits\Exception\InvalidArgument;
-use Ramsey\ConventionalCommits\Exception\InvalidValue;
-use Ramsey\Test\SnapshotsTool;
-use Ramsey\Test\TestCase;
-use Ramsey\Test\WindowsSafeTextDriver;
+use Sojeda\ConventionalCommits\Configuration\Configuration;
+use Sojeda\ConventionalCommits\Configuration\FinderTool;
+use Sojeda\ConventionalCommits\Exception\ComposerNotFound;
+use Sojeda\ConventionalCommits\Exception\InvalidArgument;
+use Sojeda\ConventionalCommits\Exception\InvalidValue;
+use Sojeda\Test\SnapshotsTool;
+use Sojeda\Test\TestCase;
+use Sojeda\Test\WindowsSafeTextDriver;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Filesystem\Filesystem;

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits\Console\Question;
+namespace Sojeda\Test\ConventionalCommits\Console\Question;
 
-use Ramsey\ConventionalCommits\Console\Question\MessageQuestion;
-use Ramsey\Test\TestCase;
+use Sojeda\ConventionalCommits\Console\Question\MessageQuestion;
+use Sojeda\Test\TestCase;
 
 class MessageQuestionTest extends TestCase
 {

@@ -19,9 +19,9 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Validator;
+namespace Sojeda\ConventionalCommits\Validator;
 
-use Ramsey\ConventionalCommits\Exception\InvalidValue;
+use Sojeda\ConventionalCommits\Exception\InvalidValue;
 
 /**
  * Classes that are validatable provide methods to add and retrieve validators

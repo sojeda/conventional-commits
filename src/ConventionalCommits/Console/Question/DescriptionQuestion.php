@@ -19,15 +19,15 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Console\Question;
+namespace Sojeda\ConventionalCommits\Console\Question;
 
-use Ramsey\ConventionalCommits\Configuration\Configurable;
-use Ramsey\ConventionalCommits\Configuration\ConfigurableTool;
-use Ramsey\ConventionalCommits\Configuration\Configuration;
-use Ramsey\ConventionalCommits\Exception\InvalidArgument;
-use Ramsey\ConventionalCommits\Exception\InvalidConsoleInput;
-use Ramsey\ConventionalCommits\Exception\InvalidValue;
-use Ramsey\ConventionalCommits\Message\Description;
+use Sojeda\ConventionalCommits\Configuration\Configurable;
+use Sojeda\ConventionalCommits\Configuration\ConfigurableTool;
+use Sojeda\ConventionalCommits\Configuration\Configuration;
+use Sojeda\ConventionalCommits\Exception\InvalidArgument;
+use Sojeda\ConventionalCommits\Exception\InvalidConsoleInput;
+use Sojeda\ConventionalCommits\Exception\InvalidValue;
+use Sojeda\ConventionalCommits\Message\Description;
 use Symfony\Component\Console\Question\Question;
 
 use function trim;

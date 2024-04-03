@@ -19,7 +19,7 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\CaptainHook;
+namespace Sojeda\CaptainHook;
 
 use CaptainHook\App\Config;
 use CaptainHook\App\Config\Action as ActionConfig;
@@ -28,11 +28,11 @@ use CaptainHook\App\Hook\Action;
 use CaptainHook\App\Hook\Constrained;
 use CaptainHook\App\Hook\Restriction;
 use CaptainHook\App\Hooks;
-use Ramsey\ConventionalCommits\Configuration\Configuration;
-use Ramsey\ConventionalCommits\Configuration\FinderTool;
-use Ramsey\ConventionalCommits\Console\Command\PrepareCommand;
 use SebastianFeldmann\Git\CommitMessage;
 use SebastianFeldmann\Git\Repository;
+use Sojeda\ConventionalCommits\Configuration\Configuration;
+use Sojeda\ConventionalCommits\Configuration\FinderTool;
+use Sojeda\ConventionalCommits\Console\Command\PrepareCommand;
 use Symfony\Component\Console\Input\ArrayInput;
 
 use function trim;

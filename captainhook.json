@@ -9,7 +9,7 @@
         "enabled": true,
         "actions": [
             {
-                "action": "\\Ramsey\\CaptainHook\\ValidateConventionalCommit"
+                "action": "\\Ojeda\\CaptainHook\\ValidateConventionalCommit"
             }
         ]
     },
@@ -66,7 +66,7 @@
         "enabled": true,
         "actions": [
             {
-                "action": "\\Ramsey\\CaptainHook\\PrepareConventionalCommit"
+                "action": "\\Ojeda\\CaptainHook\\PrepareConventionalCommit"
             }
         ]
     },

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\CaptainHook;
+namespace Sojeda\Test\CaptainHook;
 
 use CaptainHook\App\Console\IO;
 use InvalidArgumentException;
 use Mockery\MockInterface;
-use Ramsey\CaptainHook\Input;
-use Ramsey\Test\TestCase;
+use Sojeda\CaptainHook\Input;
+use Sojeda\Test\TestCase;
 
 class InputTest extends TestCase
 {

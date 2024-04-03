@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits\Console\Question;
+namespace Sojeda\Test\ConventionalCommits\Console\Question;
 
-use Ramsey\ConventionalCommits\Configuration\DefaultConfiguration;
-use Ramsey\ConventionalCommits\Console\Question\FooterTokenQuestion;
-use Ramsey\ConventionalCommits\Exception\InvalidConsoleInput;
-use Ramsey\Test\TestCase;
+use Sojeda\ConventionalCommits\Configuration\DefaultConfiguration;
+use Sojeda\ConventionalCommits\Console\Question\FooterTokenQuestion;
+use Sojeda\ConventionalCommits\Exception\InvalidConsoleInput;
+use Sojeda\Test\TestCase;
 
 class FooterTokenQuestionTest extends TestCase
 {

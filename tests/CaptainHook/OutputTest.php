@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\CaptainHook;
+namespace Sojeda\Test\CaptainHook;
 
 use CaptainHook\App\Console\IO;
 use Mockery\MockInterface;
-use Ramsey\CaptainHook\Output;
-use Ramsey\Test\TestCase;
+use Sojeda\CaptainHook\Output;
+use Sojeda\Test\TestCase;
 use Symfony\Component\Console\Output\OutputInterface;
 
 class OutputTest extends TestCase

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits;
+namespace Sojeda\Test\ConventionalCommits;
 
-use Ramsey\ConventionalCommits\Exception\InvalidCommitMessage;
-use Ramsey\ConventionalCommits\Parser;
-use Ramsey\Test\SnapshotsTool;
-use Ramsey\Test\TestCase;
-use Ramsey\Test\WindowsSafeTextDriver;
+use Sojeda\ConventionalCommits\Exception\InvalidCommitMessage;
+use Sojeda\ConventionalCommits\Parser;
+use Sojeda\Test\SnapshotsTool;
+use Sojeda\Test\TestCase;
+use Sojeda\Test\WindowsSafeTextDriver;
 
 use function file_get_contents;
 use function preg_replace;

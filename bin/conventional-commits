@@ -20,9 +20,9 @@
 
 declare(strict_types=1);
 
-use Ramsey\ConventionalCommits\Console\Command\ConfigCommand;
-use Ramsey\ConventionalCommits\Console\Command\PrepareCommand;
-use Ramsey\ConventionalCommits\Console\Command\ValidateCommand;
+use Sojeda\ConventionalCommits\Console\Command\ConfigCommand;
+use Sojeda\ConventionalCommits\Console\Command\PrepareCommand;
+use Sojeda\ConventionalCommits\Console\Command\ValidateCommand;
 use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Input\ArgvInput;
 use Symfony\Component\Console\Input\InputOption;

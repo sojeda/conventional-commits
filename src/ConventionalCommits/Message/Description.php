@@ -19,9 +19,9 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Message;
+namespace Sojeda\ConventionalCommits\Message;
 
-use Ramsey\ConventionalCommits\Exception\InvalidArgument;
+use Sojeda\ConventionalCommits\Exception\InvalidArgument;
 
 use function preg_match;
 use function trim;

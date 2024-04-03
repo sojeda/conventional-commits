@@ -61,13 +61,13 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Ramsey\\CaptainHook\\": "src/CaptainHook/",
-            "Ramsey\\ConventionalCommits\\": "src/ConventionalCommits/"
+            "Sojeda\\CaptainHook\\": "src/CaptainHook/",
+            "Sojeda\\ConventionalCommits\\": "src/ConventionalCommits/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ramsey\\Test\\": "tests/"
+            "Sojeda\\Test\\": "tests/"
         }
     },
     "bin": [
@@ -75,10 +75,10 @@
     ],
     "config": {
         "allow-plugins": {
-            "phpstan/extension-installer": true,
+            "captainhook/plugin-composer": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "ergebnis/composer-normalize": true,
-            "captainhook/plugin-composer": true,
+            "phpstan/extension-installer": true,
             "ramsey/composer-repl": true
         },
         "sort-packages": true

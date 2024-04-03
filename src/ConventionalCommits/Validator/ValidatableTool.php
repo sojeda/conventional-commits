@@ -19,7 +19,7 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Validator;
+namespace Sojeda\ConventionalCommits\Validator;
 
 /**
  * This tool provides standard functionality for instances implementing Validatable

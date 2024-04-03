@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits\Console\Question;
+namespace Sojeda\Test\ConventionalCommits\Console\Question;
 
-use Ramsey\ConventionalCommits\Console\Question\IssueTypeQuestion;
-use Ramsey\ConventionalCommits\Exception\InvalidConsoleInput;
-use Ramsey\Test\TestCase;
+use Sojeda\ConventionalCommits\Console\Question\IssueTypeQuestion;
+use Sojeda\ConventionalCommits\Exception\InvalidConsoleInput;
+use Sojeda\Test\TestCase;
 
 class IssueTypeQuestionTest extends TestCase
 {

@@ -10,6 +10,7 @@
     <projectFiles>
         <directory name="./src"/>
         <ignoreFiles>
+            <file name="./src/CaptainHook/Input.php"/>
             <directory name="./tests"/>
             <directory name="./vendor"/>
         </ignoreFiles>

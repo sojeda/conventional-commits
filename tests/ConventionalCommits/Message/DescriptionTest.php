@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits\Message;
+namespace Sojeda\Test\ConventionalCommits\Message;
 
-use Ramsey\ConventionalCommits\Exception\InvalidArgument;
-use Ramsey\ConventionalCommits\Exception\InvalidValue;
-use Ramsey\ConventionalCommits\Message\Description;
-use Ramsey\ConventionalCommits\String\LetterCase;
-use Ramsey\ConventionalCommits\Validator\EndMarkValidator;
-use Ramsey\ConventionalCommits\Validator\LetterCaseValidator;
-use Ramsey\Test\TestCase;
+use Sojeda\ConventionalCommits\Exception\InvalidArgument;
+use Sojeda\ConventionalCommits\Exception\InvalidValue;
+use Sojeda\ConventionalCommits\Message\Description;
+use Sojeda\ConventionalCommits\String\LetterCase;
+use Sojeda\ConventionalCommits\Validator\EndMarkValidator;
+use Sojeda\ConventionalCommits\Validator\LetterCaseValidator;
+use Sojeda\Test\TestCase;
 
 use function trim;
 

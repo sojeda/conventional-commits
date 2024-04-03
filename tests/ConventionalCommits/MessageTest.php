@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits;
+namespace Sojeda\Test\ConventionalCommits;
 
-use Ramsey\ConventionalCommits\Configuration\DefaultConfiguration;
-use Ramsey\ConventionalCommits\Exception\InvalidValue;
-use Ramsey\ConventionalCommits\Message;
-use Ramsey\ConventionalCommits\Message\Body;
-use Ramsey\ConventionalCommits\Message\Description;
-use Ramsey\ConventionalCommits\Message\Footer;
-use Ramsey\ConventionalCommits\Message\Scope;
-use Ramsey\ConventionalCommits\Message\Type;
-use Ramsey\ConventionalCommits\Parser;
-use Ramsey\Test\ConventionalCommits\Message\BodyTest;
-use Ramsey\Test\SnapshotsTool;
-use Ramsey\Test\TestCase;
-use Ramsey\Test\WindowsSafeTextDriver;
+use Sojeda\ConventionalCommits\Configuration\DefaultConfiguration;
+use Sojeda\ConventionalCommits\Exception\InvalidValue;
+use Sojeda\ConventionalCommits\Message;
+use Sojeda\ConventionalCommits\Message\Body;
+use Sojeda\ConventionalCommits\Message\Description;
+use Sojeda\ConventionalCommits\Message\Footer;
+use Sojeda\ConventionalCommits\Message\Scope;
+use Sojeda\ConventionalCommits\Message\Type;
+use Sojeda\ConventionalCommits\Parser;
+use Sojeda\Test\ConventionalCommits\Message\BodyTest;
+use Sojeda\Test\SnapshotsTool;
+use Sojeda\Test\TestCase;
+use Sojeda\Test\WindowsSafeTextDriver;
 
 use function file_get_contents;
 use function preg_replace;

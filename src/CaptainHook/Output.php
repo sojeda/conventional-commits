@@ -19,7 +19,7 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\CaptainHook;
+namespace Sojeda\CaptainHook;
 
 use CaptainHook\App\Console\IO;
 use Symfony\Component\Console\Output\ConsoleOutput;

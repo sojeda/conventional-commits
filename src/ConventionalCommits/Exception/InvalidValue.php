@@ -19,7 +19,7 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Exception;
+namespace Sojeda\ConventionalCommits\Exception;
 
 use RuntimeException;
 

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits\Console\Question;
+namespace Sojeda\Test\ConventionalCommits\Console\Question;
 
-use Ramsey\ConventionalCommits\Console\Question\HasBreakingChangesQuestion;
-use Ramsey\Test\TestCase;
+use Sojeda\ConventionalCommits\Console\Question\HasBreakingChangesQuestion;
+use Sojeda\Test\TestCase;
 
 class HasBreakingChangesQuestionTest extends TestCase
 {

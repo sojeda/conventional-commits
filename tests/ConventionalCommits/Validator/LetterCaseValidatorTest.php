@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits\Validator;
+namespace Sojeda\Test\ConventionalCommits\Validator;
 
-use Ramsey\ConventionalCommits\Exception\InvalidValue;
-use Ramsey\ConventionalCommits\Validator\LetterCaseValidator;
-use Ramsey\Test\TestCase;
+use Sojeda\ConventionalCommits\Exception\InvalidValue;
+use Sojeda\ConventionalCommits\Validator\LetterCaseValidator;
+use Sojeda\Test\TestCase;
 
 use function sprintf;
 

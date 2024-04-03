@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits\Console\Question;
+namespace Sojeda\Test\ConventionalCommits\Console\Question;
 
-use Ramsey\ConventionalCommits\Configuration\DefaultConfiguration;
-use Ramsey\ConventionalCommits\Console\Question\TypeQuestion;
-use Ramsey\ConventionalCommits\Exception\InvalidConsoleInput;
-use Ramsey\ConventionalCommits\Message\Type;
-use Ramsey\Test\TestCase;
+use Sojeda\ConventionalCommits\Configuration\DefaultConfiguration;
+use Sojeda\ConventionalCommits\Console\Question\TypeQuestion;
+use Sojeda\ConventionalCommits\Exception\InvalidConsoleInput;
+use Sojeda\ConventionalCommits\Message\Type;
+use Sojeda\Test\TestCase;
 
 class TypeQuestionTest extends TestCase
 {

@@ -19,9 +19,9 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Console\Command;
+namespace Sojeda\ConventionalCommits\Console\Command;
 
-use Ramsey\ConventionalCommits\Console\SymfonyStyleFactory;
+use Sojeda\ConventionalCommits\Console\SymfonyStyleFactory;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;

@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits\Message;
+namespace Sojeda\Test\ConventionalCommits\Message;
 
-use Ramsey\ConventionalCommits\Configuration\DefaultConfiguration;
-use Ramsey\ConventionalCommits\Exception\InvalidArgument;
-use Ramsey\ConventionalCommits\Exception\InvalidValue;
-use Ramsey\ConventionalCommits\Message\Noun;
-use Ramsey\ConventionalCommits\Message\Scope;
-use Ramsey\ConventionalCommits\Message\Type;
-use Ramsey\ConventionalCommits\String\LetterCase;
-use Ramsey\ConventionalCommits\Validator\LetterCaseValidator;
-use Ramsey\ConventionalCommits\Validator\ScopeValidator;
-use Ramsey\ConventionalCommits\Validator\TypeValidator;
-use Ramsey\Test\TestCase;
+use Sojeda\ConventionalCommits\Configuration\DefaultConfiguration;
+use Sojeda\ConventionalCommits\Exception\InvalidArgument;
+use Sojeda\ConventionalCommits\Exception\InvalidValue;
+use Sojeda\ConventionalCommits\Message\Noun;
+use Sojeda\ConventionalCommits\Message\Scope;
+use Sojeda\ConventionalCommits\Message\Type;
+use Sojeda\ConventionalCommits\String\LetterCase;
+use Sojeda\ConventionalCommits\Validator\LetterCaseValidator;
+use Sojeda\ConventionalCommits\Validator\ScopeValidator;
+use Sojeda\ConventionalCommits\Validator\TypeValidator;
+use Sojeda\Test\TestCase;
 
 use function array_pop;
 use function explode;

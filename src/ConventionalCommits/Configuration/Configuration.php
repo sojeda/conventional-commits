@@ -19,11 +19,11 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Configuration;
+namespace Sojeda\ConventionalCommits\Configuration;
 
 use JsonSerializable;
-use Ramsey\ConventionalCommits\Converter\LetterCaseConverter;
-use Ramsey\ConventionalCommits\Validator\MessageValidator;
+use Sojeda\ConventionalCommits\Converter\LetterCaseConverter;
+use Sojeda\ConventionalCommits\Validator\MessageValidator;
 
 /**
  * A configuration provides additional rules on top of the Conventional

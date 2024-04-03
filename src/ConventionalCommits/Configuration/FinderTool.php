@@ -19,7 +19,7 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Configuration;
+namespace Sojeda\ConventionalCommits\Configuration;
 
 use Composer\Composer;
 use Composer\Factory;
@@ -29,9 +29,9 @@ use Opis\JsonSchema\Errors\ErrorFormatter;
 use Opis\JsonSchema\Errors\ValidationError;
 use Opis\JsonSchema\Validator;
 use Phar;
-use Ramsey\ConventionalCommits\Exception\ComposerNotFound;
-use Ramsey\ConventionalCommits\Exception\InvalidArgument;
-use Ramsey\ConventionalCommits\Exception\InvalidValue;
+use Sojeda\ConventionalCommits\Exception\ComposerNotFound;
+use Sojeda\ConventionalCommits\Exception\InvalidArgument;
+use Sojeda\ConventionalCommits\Exception\InvalidValue;
 use Symfony\Component\Console\Helper\HelperSet;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;

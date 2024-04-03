@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\CaptainHook;
+namespace Sojeda\Test\CaptainHook;
 
 use CaptainHook\App\Config;
 use CaptainHook\App\Config\Action as ActionConfig;
@@ -10,14 +10,14 @@ use CaptainHook\App\Console\IO;
 use CaptainHook\App\Hooks;
 use Hamcrest\Core\IsInstanceOf;
 use Mockery\MockInterface;
-use Ramsey\CaptainHook\Output;
-use Ramsey\CaptainHook\PrepareConventionalCommit;
-use Ramsey\ConventionalCommits\Configuration\DefaultConfiguration;
-use Ramsey\ConventionalCommits\Console\Command\PrepareCommand;
-use Ramsey\ConventionalCommits\Message;
-use Ramsey\Test\TestCase;
 use SebastianFeldmann\Git\CommitMessage;
 use SebastianFeldmann\Git\Repository;
+use Sojeda\CaptainHook\Output;
+use Sojeda\CaptainHook\PrepareConventionalCommit;
+use Sojeda\ConventionalCommits\Configuration\DefaultConfiguration;
+use Sojeda\ConventionalCommits\Console\Command\PrepareCommand;
+use Sojeda\ConventionalCommits\Message;
+use Sojeda\Test\TestCase;
 use Symfony\Component\Console\Input\ArrayInput;
 
 class PrepareConventionalCommitTest extends TestCase

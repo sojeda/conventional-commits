@@ -19,7 +19,7 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\ConventionalCommits\Console\Question;
+namespace Sojeda\ConventionalCommits\Console\Question;
 
 use Symfony\Component\Console\Question\ConfirmationQuestion;
 

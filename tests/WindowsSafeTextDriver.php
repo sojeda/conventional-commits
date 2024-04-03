@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test;
+namespace Sojeda\Test;
 
 use PHPUnit\Framework\Assert;
 use Spatie\Snapshots\Driver;

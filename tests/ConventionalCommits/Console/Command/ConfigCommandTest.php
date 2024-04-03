@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Ramsey\Test\ConventionalCommits\Console\Command;
+namespace Sojeda\Test\ConventionalCommits\Console\Command;
 
 use Mockery\MockInterface;
-use Ramsey\ConventionalCommits\Console\Command\BaseCommand;
-use Ramsey\ConventionalCommits\Console\Command\ConfigCommand;
-use Ramsey\ConventionalCommits\Console\SymfonyStyleFactory;
-use Ramsey\Test\TestCase;
+use Sojeda\ConventionalCommits\Console\Command\BaseCommand;
+use Sojeda\ConventionalCommits\Console\Command\ConfigCommand;
+use Sojeda\ConventionalCommits\Console\SymfonyStyleFactory;
+use Sojeda\Test\TestCase;
 use Symfony\Component\Console\Input\StringInput;
 use Symfony\Component\Console\Output\NullOutput;
 use Symfony\Component\Console\Style\SymfonyStyle;
