@@ -9,7 +9,7 @@
         "enabled": true,
         "actions": [
             {
-                "action": "\\Ojeda\\CaptainHook\\ValidateConventionalCommit"
+                "action": "\\Sojeda\\CaptainHook\\ValidateConventionalCommit"
             }
         ]
     },
@@ -66,7 +66,7 @@
         "enabled": true,
         "actions": [
             {
-                "action": "\\Ojeda\\CaptainHook\\PrepareConventionalCommit"
+                "action": "\\Sojeda\\CaptainHook\\PrepareConventionalCommit"
             }
         ]
     },

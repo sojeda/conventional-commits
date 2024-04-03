@@ -180,7 +180,7 @@ class FinderToolTest extends TestCase
         $composer = $this->finderTool->getComposer($this->input, $this->output, $filesystem);
 
         $this->assertInstanceOf(Composer::class, $composer);
-        $this->assertSame('ramsey/conventional-commits', $composer->getPackage()->getName());
+        $this->assertSame('sojeda/conventional-commits', $composer->getPackage()->getName());
     }
 
     public function testGetComposerThrowsExceptionWhenAutoloaderDoesNotExist(): void
