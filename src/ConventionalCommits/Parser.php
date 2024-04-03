@@ -106,7 +106,7 @@ class Parser implements Configurable
      */
     private function parseFooter(string $footer): array
     {
-        if (!preg_match_all(self::FOOTER_PATTERN, $footer, $matches)) {
+        if (preg_match_all(self::FOOTER_PATTERN, $footer, $matches) === false) {
             return [];
         }
 
